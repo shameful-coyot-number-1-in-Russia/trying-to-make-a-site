@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+ <meta http-equiv="refresh" content="100" />
+<script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+ <link rel="shortcut icon" href="logo.png" type="image/png">
+
+<title>Главная</title>
+  <style>
+   body {
+       font-family: "arial black";
+    background: #191A1B; /* Цвет фона */
+    color: #ffffff; /* Цвет текста */
+   }
+       a {
+        color: GREEN;
+    }
+       .block1 { 
+    border-radius:20px;
+    width: 50vh; 
+    height: 85vh;
+    background: #0d7555;
+    padding: 5px;
+    padding-right: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    display: table;
+   }
+   #tr {
+       font-size: 18pt;
+    	display: table-cell;
+	vertical-align: middle;
+    }
+   </style>
+    <script> 
+    
+    function download(name, type) {
+        alert("ааааааа");
+        var a = document.getElementById("a");
+        var file = new Blob([document.getElementById("ss").value+document.getElementById("sss").value ], {type: type});
+        a.href = URL.createObjectURL(file);
+        a.download = name;
+    }
+    </script>
+     <div class="block1" >
+         <div id="tr">
+         <h1 align="center" style="font-size:150%;">АХАХААХААХАХАХА </h1>
+         <h3 align="center" style="font-size:100%;">Зачем ты сюда зашел? Это же была шутка))))</h3>
+         <h3 align="center" style="font-size:70%;">Ну а вообще это оффициальный сайт "позорных койотов" :)</h3>
+         <h3 align="center" style="font-size:70%;">Когда-нибудь здесь будет нормальный сайт, но явно не сейчас</h3>
+         <h3 align="center" style="font-size:60%;">Донатить туда - 4279 3806 7330 1257</h3>
+         <p></p>
+
+         <div align="center"><button OnClick="download(name, txt);" style="font-family: 'arial black';border:none;color: white;background: linear-gradient(to right, #633d9c, #e05e1f);border-radius:7px;width:50vh;height:15vh;font-size: 95%;;">Кнопка не работает, мне лень писать бэкенд</button></div></div>
+     </div>
+     <h1 style="color: #393939;font-size: 95%;" align="center">десигн, верстка, текст, и прочая хрень by pzrnqt1vrss</h1>
+     <h1 style="color: #393939;font-size: 95%;" align="center">для связи по любым вопросам, кроме квантовой физики, нейробиологии, зачисления в хогвартс и малинового цвета - cupofleo2@gmail.com</h1>
